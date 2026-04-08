@@ -76,6 +76,6 @@ exports.getUserInfo = async (req, res) => {
     } catch (err) {
         res
         .status(500)
-        .json({message: "Error registering user", error: err.message});
+        .json({message: "Error getting user", error: err.message});
     }
 };
