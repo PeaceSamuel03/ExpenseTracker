@@ -9,7 +9,7 @@ const CustomLineChart = ({data}) => {
                 <div className="bg-white shadow-md rouned-lg p-2 border border-gray-300">
                     <p className="text-xs font-semibold text-pink-800 mb-1">{payload[0].payload.category}</p>
                     <p className="text-sm text-gray-600">
-                        Amount: <span className="text-sm font-medium text-gray-900"> ${payload[0].payload.amount}</span>
+                        Amount: <span className="text-sm font-medium text-gray-900"> €{payload[0].payload.amount}</span>
                     </p>
                 </div>
             );
