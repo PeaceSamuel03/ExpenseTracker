@@ -9,9 +9,9 @@ import {
     Legend,
     ResponsiveContainer,
     Cell,
-} from "recharts"
+} from "recharts";
 
-const CustomBarChart = ({data}) => {
+const CustomBarChart = ({data, xKey = "category"}) => {
 
     //function to alternate colors
     const getBarColor = (index) => {
@@ -38,7 +38,7 @@ const CustomBarChart = ({data}) => {
                 <BarChart data={data}>
                     <CartesianGrid stroke="none" />
 
-                    <XAxis dataKey="category" tick={{ fontSize: 12, fill: "#555" }} stroke="none" />
+                    <XAxis dataKey={xKey} tick={{ fontSize: 12, fill: "#555" }} stroke="none" />
                     <YAxis tick={{ fontSize: 12, fill: "#555" }} stroke="none" />
 
                     <Tooltip content={CustomToolTip}/>
@@ -46,9 +46,9 @@ const CustomBarChart = ({data}) => {
                     <Bar
                         dataKey="amount"
                         radius={[10, 10, 0, 0]}
-                        fill="#ff8042"
-                        activeDot={{ r: 8, fill:"yellow" }}
-                        activeStyle={{ fill: "green" }}
+                        // fill="#ff8042"
+                        // activeDot={{ r: 8, fill:"yellow" }}
+                        // activeStyle={{ fill: "green" }}
                     >
                         {data.map((entry, index) => (
                             <Cell key={index} fill={getBarColor(index)} />
@@ -58,7 +58,7 @@ const CustomBarChart = ({data}) => {
                 </BarChart>
             </ResponsiveContainer>
         </div>
-    )
-}
+    );
+};
 
-export default CustomBarChart
+export default CustomBarChart;
