@@ -79,7 +79,9 @@ The application uses JWT authentication.
 - Auto redirect to login when token expires
 - User context for state management
 
-## Challengs Solved 
+---
+
+## Challenges Solved 
 Some major debugging and development challenges included:
 - JWT authentication middleware issues
 - Upload image export/ import errors
