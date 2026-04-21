@@ -98,7 +98,7 @@ These were solved through backend debugging, frontend state optimisation and API
 - Category based analytics
 
 ## Screenshots
-(include later)
+<img src="/screenshots/auth_page.png" alt="Local Image" width="500">
 
 ## Learning Outcomes
 This project has helped strengthen my practical knowledge in:
