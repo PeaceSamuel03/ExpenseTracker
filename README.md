@@ -99,6 +99,12 @@ These were solved through backend debugging, frontend state optimisation and API
 
 ## Screenshots
 <img src="/screenshots/auth_page.png" alt="Local Image" width="500">
+<img src="/screenshots/home_page.png" alt="Local Image" width="500">
+<img src="/screenshots/home_page2.png" alt="Local Image" width="500">
+<img src="/screenshots/income_page.png" alt="Local Image" width="500">
+<img src="/screenshots/income_page2.png" alt="Local Image" width="500">
+<img src="/screenshots/expense_page.png" alt="Local Image" width="500">
+<img src="/screenshots/expense_page2.png" alt="Local Image" width="500">
 
 ## Learning Outcomes
 This project has helped strengthen my practical knowledge in:
