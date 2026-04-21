@@ -26,7 +26,7 @@ This application allows users to:
 
 ### Application Walkthrough
 
-(Add demo video here!!)
+![Expense Tracker Demo](/screenshots/recording.gif)
 
 ### Features Demonstrated
 
