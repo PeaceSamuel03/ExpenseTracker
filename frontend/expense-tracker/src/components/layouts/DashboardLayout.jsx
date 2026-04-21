@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { UserContext } from "../../context/userContext";
 import Navbar from "./Navbar";
 import SideMenu from "./SideMenu";
+import Footer from "./Footer";
 
 const DashboardLayout = ({children, activeMenu}) => {
     const { user } = useContext(UserContext);
@@ -18,6 +19,7 @@ const DashboardLayout = ({children, activeMenu}) => {
                     <div className="grow mx-5">{children}</div>
                 </div>
             )}
+            <Footer />
         </div>
         
     );
